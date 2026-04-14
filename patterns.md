@@ -129,6 +129,24 @@ def search_csv(csv_path, query, top_k=5, truncate=300):
 
 ---
 
+## 命名规范统计数据（101个热门 skill 样本）
+
+来源：Anthropic 官方 skills、superpowers、社区热门 skill（2026-04）
+
+| 模式 | 占比 | 典型例子 |
+|------|------|---------|
+| 名词+限定符（expert/pro/reviewer…） | 38% | `react-expert`, `code-reviewer`, `api-designer` |
+| 动名词 -ing | 26% | `brainstorming`, `writing-plans`, `dispatching-parallel-agents` |
+| 纯名词（工具/格式） | 18% | `pdf`, `docx`, `bilibili`, `searxng` |
+| 动词+名词 | 18% | `skill-creator`, `mcp-builder`, `find-skills` |
+
+**通用规律：**
+- 全部 kebab-case（小写+连字符），无例外
+- 黄金长度：15-25 字符（73% 的 skill 在此区间）
+- 无统一强制模式，但同一 skill 集合内保持风格一致
+
+---
+
 ## Symlink 单一真相（多工作区共享）
 
 ```bash

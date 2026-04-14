@@ -63,11 +63,16 @@ description: Use when the user shares a Xiaohongshu link and asks to save a reci
 
 ### 5. 命名规范
 
-| 场景 | 规范 | 示例 |
+全部 kebab-case，长度 15-25 字符为佳。按 skill 类型选模式：
+
+| 类型 | 模式 | 示例 |
 |------|------|------|
-| 动作/流程 | 动名词 `-ing` | `designing-skills`, `writing-obsidian` |
-| 工具/平台 | 名词 | `xhs-downloader`, `obsidian-write` |
-| OpenClaw skill | 灵活（与上一致即可） | `recipe-xhs`, `bilibili` |
+| 流程/动作 | 动名词 `-ing` | `brainstorming`, `writing-skills` |
+| 工具/格式/平台 | 纯名词 | `pdf`, `bilibili`, `obsidian-write` |
+| 专业角色 | 名词+限定符 | `code-reviewer`, `api-designer` |
+| 构建类 | 动词+名词 | `skill-creator`, `mcp-builder` |
+
+详见 patterns.md 命名统计数据。
 
 ### 6. 测试要求
 
